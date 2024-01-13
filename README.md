@@ -17,7 +17,7 @@ Se recomienda crear un entorno virtual y instalar las dependencias necesarias si
 
 ## Formatear el Dataset
 Se puede usar cualquier dataset de imagenes de vehiculos clasificados por colores, despues utilizo las siguientes funciones para preparar los datos.
-- Mi dataset usado en la bibliografia
+- Mi dataset usado en la bibliografia.<br>
 Para formatear el dataset y prepararlo para el entrenamiento, ejecute:
 ```bash
 python format.py
@@ -28,7 +28,7 @@ Para dividir el dataset en conjuntos de entrenamiento y validación, ejecute:
 python splitter.py
 ```
 ## Entrenamiento y Evaluación del Modelo
-Para entrenar y evaluar el modelo, abra el notebook Car_Color_Recognition.ipynb en Jupyter y ejecute todas las celdas.
+Para entrenar y evaluar el modelo, abra el notebook Car_Color_Recognition.ipynb en Jupyter y ejecute todas las celdas.<br>
 En este repositorio incluyo algunas de las imagenes que he utilizado para la evaluación del modelo.
 ## Requisitos
 - Python 3.8 o superior
@@ -40,7 +40,7 @@ En este repositorio incluyo algunas de las imagenes que he utilizado para la eva
 - Pillow
 
 ## Bibliografia 
-Basado en el paper:
-https://arxiv.org/pdf/1510.07391.pdf
-Mi dataset:
-https://drive.google.com/file/d/1tdJ92Uhwp6-tWEqt19qcsZ7yoRb3dD8-/view?usp=sharing
+Basado en el paper:<br>
+https://arxiv.org/pdf/1510.07391.pdf<br>
+Mi dataset:<br>
+https://drive.google.com/file/d/1tdJ92Uhwp6-tWEqt19qcsZ7yoRb3dD8-/view?usp=sharing<br>
