@@ -13,9 +13,11 @@ El proyecto incluye los siguientes archivos clave:
 ## Cómo Usar
 
 ### Preparar el Entorno
-Se recomienda crear un entorno virtual y instalar las dependencias necesarias utilizando el siguiente comando:
+Se recomienda crear un entorno virtual y instalar las dependencias necesarias siguiendo el orden de celdas. Requisitos previos mas abajo.
 
 ## Formatear el Dataset
+Se puede usar cualquier dataset de imagenes de vehiculos clasificados por colores, despues utilizo las siguientes funciones para preparar los datos.
+- Mi dataset usado en la bibliografia
 Para formatear el dataset y prepararlo para el entrenamiento, ejecute:
 ```bash
 python format.py
@@ -27,7 +29,7 @@ python splitter.py
 ```
 ## Entrenamiento y Evaluación del Modelo
 Para entrenar y evaluar el modelo, abra el notebook Car_Color_Recognition.ipynb en Jupyter y ejecute todas las celdas.
-
+En este repositorio incluyo algunas de las imagenes que he utilizado para la evaluación del modelo.
 ## Requisitos
 - Python 3.8 o superior
 - TensorFlow 2.x
@@ -40,3 +42,5 @@ Para entrenar y evaluar el modelo, abra el notebook Car_Color_Recognition.ipynb 
 ## Bibliografia 
 Basado en el paper:
 https://arxiv.org/pdf/1510.07391.pdf
+Mi dataset:
+https://drive.google.com/file/d/1tdJ92Uhwp6-tWEqt19qcsZ7yoRb3dD8-/view?usp=sharing
